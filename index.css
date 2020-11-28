@@ -4,6 +4,15 @@
   
   body {
     font-family: 'Roboto', sans-serif;
+    background-color: black;
+  }
+
+  h1, h2 {
+      color: white
+  }
+
+  form {
+      color: white;
   }
   
   button, input[type="text"] {
@@ -12,20 +21,6 @@
   
   button:hover {
     cursor: pointer;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  li {
-    padding: 10px;
-  }
-  
-  li, img {
-    max-width: 500px;
   }
   
   .container {
@@ -39,4 +34,26 @@
   
   .hidden {
     display: none;
+  }
+
+
+  .resultItem {
+      background-color: darkgray;
+      padding: 5px 20px;
+      margin: 15px;
+      border-radius: 10px;
+      
+  }
+
+  .user-submit {
+      color: black;
+      background-color: dark;
+      display: block;
+      text-align: center;
+      padding: 10px 50px;
+      font-family: Verdana, Helvetica, sans-serif;
+      font-weight: bold;
+      border: 1px solid darkgoldenrod;
+      border-radius: 10px;
+      margin: 20px 0px;
   }

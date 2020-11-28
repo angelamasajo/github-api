@@ -44,8 +44,8 @@ function displayResults(responseJson) {
     $("#repos-list").empty();
     let responseHtml = "";
     responseJson.forEach(userRepo => {
-      responseHtml += `<h3 class="panel-title">${userRepo.name}</h3>
-       <a href=" ${userRepo.html_url}">Repo URL Link</a>`;
+      responseHtml += `<div class ="resultItem"><h3 class="panel-title">${userRepo.name}</h3>
+       <p><a href=" ${userRepo.html_url}">Link to Repository</a></p></div>`;
     });
     $("#search-results").html(responseHtml);
     $("#repos").removeClass("hidden");
